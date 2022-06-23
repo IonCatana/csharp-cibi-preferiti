@@ -32,6 +32,14 @@ Console.WriteLine("5° Classificato = " + cibiPreferiti[0]);
 Console.WriteLine("\n Cibo piu apprezzato: " + cibiPreferiti[1] + "\n Cibo meno apprezzato:" + cibiPreferiti[0]);
 
 
+
 //BONUS Stampate a video anche il cibo di mezza classifica, cioè che si trova nella posizione mediana.
 //Attenzione: gestire anche il caso se aveste una classifica con un numero di elementi pari.
 //In questo caso vanno stampati i 2 elementi in centro alla vostra classifica.  
+
+string[] classifica = { "Pasta al ragú", "Pizza", "Ravioli", "Lasagne", "Cioccolato" };
+
+var cibiMediani = ((classifica.Length - 1) / 2) + 1;
+
+Console.WriteLine($"\nL'ELEMENTO CENTRALE E': {classifica[cibiMediani - 1]}");
+
