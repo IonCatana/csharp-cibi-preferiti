@@ -29,7 +29,7 @@ Console.WriteLine("3° Classificato = " + cibiPreferiti[4]);
 Console.WriteLine("4° Classificato = " + cibiPreferiti[3]);
 Console.WriteLine("5° Classificato = " + cibiPreferiti[0]);
 
-
+Console.WriteLine("\n Cibo piu apprezzato: " + cibiPreferiti[1] + "\n Cibo meno apprezzato:" + cibiPreferiti[0]);
 
 
 //BONUS Stampate a video anche il cibo di mezza classifica, cioè che si trova nella posizione mediana.
